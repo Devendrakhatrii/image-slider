@@ -1,12 +1,7 @@
-import { useState } from 'react'
-
+import ImageSlider from "./ImageSlider";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-
-  )
+  return <ImageSlider />;
 }
 
-export default App
+export default App;
